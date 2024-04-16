@@ -98,7 +98,6 @@ for(row in 1:nrow(results)) {
 
 # Save simulation results.
 fwrite(results, 
-       file = paste0("data/region/fixed_theta_fixed_data/",
-                     "02_normal_crossfit_LRT_sim_",
+       file = paste0("sim_data/fig01_crossfit_LRT_sim_",
                      sim_val, ".csv"))
 

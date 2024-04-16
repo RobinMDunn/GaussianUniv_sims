@@ -99,7 +99,7 @@ results[sim == 6, covered := results[sim == 1, covered]]
 
 # Save simulation results.
 fwrite(results, 
-       file = paste0("data/region/fixed_theta_fixed_data/",
-                     "00_normal_usual_LRT_sim_",
+       file = paste0("sim_data/",
+                     "fig01_classical_LRT_sim_",
                      start_sim, "_", end_sim, ".csv"))
 
