@@ -100,5 +100,4 @@ results <- rbind(results_sim, results_analytical)
 ##### Save data #####
 #####################
 
-fwrite(results, file = paste0("data/radius/08_ddim_limit_results_d_", d,
-                              "_n_", n, ".csv"))
+fwrite(results, file = paste0("sim_data/fig02_d_", d, "_n_", n, ".csv"))
