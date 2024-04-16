@@ -84,5 +84,4 @@ for(row in 1:nrow(results)) {
   results[row, true_ratio_expect := C_sq_rad_expect / A_sq_radius]
 }
 
-fwrite(results,
-       file = "data/radius/04_SLRT_small_alpha.csv")
+fwrite(results, file = "sim_data/fig04.csv")
