@@ -60,5 +60,5 @@ for(row in 1:nrow(results)) {
 }
 
 # Save simulation results.
-fwrite(results, file = "data/power/02_normal_usual_LRT.csv")
+fwrite(results, file = "sim_data/fig06_classical_LRT.csv")
 

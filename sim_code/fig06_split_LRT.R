@@ -74,5 +74,5 @@ for(row in 1:nrow(results)) {
 }
 
 # Save simulation results.
-fwrite(results, file = "data/power/03_split_LRT.csv")
+fwrite(results, file = "sim_data/fig06_split_LRT.csv")
 
