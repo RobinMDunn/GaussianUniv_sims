@@ -93,6 +93,6 @@ results <- results %>%
   dplyr::summarise(reject = mean(reject))
 
 # Save simulation results.
-fwrite(results, file = paste0("data/RIPR/norm_interval/01_intersect_", d_val,
+fwrite(results, file = paste0("sim_data/fig07_intersect_", d_val,
                               "_", coord_start, ".csv"))
 

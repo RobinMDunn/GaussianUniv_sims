@@ -198,7 +198,7 @@ results <- results %>%
                    mean_case_3_prop = mean(case_3_prop))
 
 # Save simulation results.
-fwrite(results, file = paste0("data/RIPR/norm_interval/03_hybrid_d_",
+fwrite(results, file = paste0("sim_data/fig07_hybrid_d_",
                               d_val, "_n_", n_obs, "_coord_", 
                               coord_start, ".csv"))
 

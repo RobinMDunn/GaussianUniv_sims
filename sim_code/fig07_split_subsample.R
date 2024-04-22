@@ -139,7 +139,7 @@ results <- results %>%
                    mean_test_stat = mean(test_stat))
 
 # Save simulation results.
-fwrite(results, file = paste0("data/RIPR/norm_interval/02_split_subsample_d_", 
+fwrite(results, file = paste0("sim_data/fig07_split_subsample_d_", 
                               d_val, "_n_", n_obs, "_coord_", 
                               coord_start, ".csv"))
 
