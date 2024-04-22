@@ -120,5 +120,5 @@ for(row in 1:nrow(results)) {
 
 # Save simulation results.
 fwrite(results, 
-       file = paste0("data/radius/03_SLRT_sim10000_n_", n_input, "_d_", 
-                     start_d, "_", end_d, ".csv"))
+       file = paste0("sim_data/fig05_n_", n_input, "_d_", 
+                     start_d, "_", end_d, "_by_", increment, ".csv"))
