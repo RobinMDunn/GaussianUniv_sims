@@ -8,10 +8,10 @@ suppressMessages(library(data.table))
 suppressMessages(library(progress))
 
 # Read in arguments for start/end d (dimensional of Normal dist).
-start_d <- 10
-end_d <- 1000
-n_input <- 1000
-increment <- 10
+start_d <- 1
+end_d <- 20
+n_input <- 1000 # Use n_input = 1000 and n_input = 10
+increment <- 1
 
 args <- commandArgs(trailingOnly = TRUE)
 if (length(args) > 0) {
